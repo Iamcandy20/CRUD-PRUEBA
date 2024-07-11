@@ -29,10 +29,9 @@
             <td scope="row">{{$categoria->descripcion}}</td>
             <td class="d-flex flex-row gap-2">
               <form action="{{route("categorias.destroy", $categoria->id)}}">
-                <button type="submit" class="btn btn-info btn-sm" >Eliminar</button>
+                <button type="submit" class="btn btn-danger btn-sm" >Eliminar</button>
               </form>
-              <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#categoria_{{$categoria->id}}">Editar</button>
-            </td>
+              <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#categoria_{{$categoria->id}}">Editar</button>
         </tr>
         @include("categorias.partial.info", ["categoria" => $categoria])
 

@@ -4,7 +4,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Editar categoria</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Categoria</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -16,11 +16,11 @@
 
                 <div class="form-group">
                   <label for="nombre">Nombre</label>
-                  <input type="text" class="form-control" name="nombre"  placeholder="Ingresa tu nombre">
+                  <input type="text" class="form-control" name="nombre"  placeholder="Ingresa nombre de categoria">
                 </div>
                 <div class="form-group">
                   <label for="descripcion">Descripción</label>
-                  <textarea class="form-control" name="descripcion" rows="3" placeholder="Ingresa una descripción"></textarea>
+                  <textarea class="form-control" name="descripcion" rows="3" placeholder="Ingresa descripcion de categoria"></textarea>
                 </div>
 
 

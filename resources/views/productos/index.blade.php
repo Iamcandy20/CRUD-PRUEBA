@@ -33,10 +33,9 @@
             <td scope="row">{{$producto->categorias()->count()}}</td>
             <td class="d-flex flex-row gap-2">
               <form action="{{route("productos.destroy", $producto->id)}}">
-                <button type="submit" class="btn btn-info btn-sm" >Eliminar</button>
+                <button type="submit" class="btn btn-danger btn-sm" >Eliminar</button>
               </form>
-              <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#producto_{{$producto->id}}">Editar</button>
-            </td>
+              <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#producto_{{$producto->id}}">Editar</button>
         </tr>
         
   @include("productos.partials.info", ["producto" => $producto])

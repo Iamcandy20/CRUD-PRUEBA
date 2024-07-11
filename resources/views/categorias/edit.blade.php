@@ -9,7 +9,7 @@
     </div>
     <div class="form-group">
       <label for="nombre">Nombre</label>
-      <input type="text" class="form-control" name="nombre" value="{{$categoria->nombre}}" placeholder="Ingresa tu nombre">
+      <input type="text" class="form-control" name="nombre" value="{{$categoria->nombre}}" placeholder="Ingresa nombre">
     </div>
     <div class="form-group">
       <label for="descripcion">Descripción</label>

@@ -16,7 +16,7 @@
   
                   <div class="form-group">
                     <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" name="nombre"  placeholder="Ingresa tu nombre">
+                    <input type="text" class="form-control" name="nombre"  placeholder="Ingresa el nombre del producto">
                   </div>
                   <div class="form-group">
                     <label for="descripcion">Descripción</label>
@@ -24,11 +24,11 @@
                   </div>
                   <div class="form-group">
                     <label for="descripcion">precio</label>
-                    <input type="number" class="form-control" name="precio" rows="3" placeholder="Ingresa una descripción">
+                    <input type="int" class="form-control" name="precio" rows="3" placeholder="Ingresa el precio">
                   </div>
                   <div class="form-group">
                     <label for="descripcion">Inventario</label>
-                    <input type="number" class="form-control" name="inventario" rows="3" placeholder="Ingresa una descripción">
+                    <input type="int" class="form-control" name="inventario" rows="3" placeholder="Ingresa cantidad en stock">
                   </div>
                   <div class="form-group">
                     <label for="">Categoria</label>
